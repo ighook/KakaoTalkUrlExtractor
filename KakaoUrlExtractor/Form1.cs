@@ -93,7 +93,6 @@ namespace KakaoUrlExtractor
                 sw.Close();
             }
         }
-
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             string selectedUrl = listBox1.SelectedItem.ToString();
